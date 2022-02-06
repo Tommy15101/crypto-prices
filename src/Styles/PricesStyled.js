@@ -7,7 +7,7 @@ export const CoinWrapper = styled.div`
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 5fr;
     color: aliceblue;
-    background-color: black;
+    background-color: rgba(0,0,0,0.8);
     height: 100%;
     width: 100%;
 `

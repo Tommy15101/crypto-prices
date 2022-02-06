@@ -20,7 +20,7 @@ const Coin = ({ image, name, price, priceChange }) => {
                     <CoinnH1>{name}</CoinnH1>
                 </CoinId>
                 <CoinData>
-                    {priceChange < 0 ? (<PriceRed>24 hrs / {priceChange.toFixed(2)}%</PriceRed>) : (<PriceGreen>24 hrs / {priceChange.toFixed(2)}%</PriceGreen>)}
+                    {priceChange < 0 ? (<PriceRed>24 hrs | {priceChange.toFixed(2)}%</PriceRed>) : (<PriceGreen>24 hrs | {priceChange.toFixed(2)}%</PriceGreen>)}
                 </CoinData>
                 <CoinPrice>$ {price}</CoinPrice>
             </CoinRow>
